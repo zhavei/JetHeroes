@@ -61,6 +61,11 @@ dependencies {
     debugImplementation "androidx.compose.ui:ui-tooling:$compose_ui_version"
     debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_ui_version"
 
+    //image loading library
     implementation "io.coil-kt:coil-compose:2.2.0"
+
+    //viewModel for Composable
+    implementation "androidx.lifecycle:lifecycle-viewmodel-compose:2.5.1"
+
 
 }
